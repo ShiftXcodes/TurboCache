@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "public": true,
+  "routes": [
+    {
+      "src": "/cache/(.*)",
+      "dest": "/cache/$1"
+    }
+  ]
+}
